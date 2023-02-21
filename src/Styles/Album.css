@@ -1,0 +1,39 @@
+.container-album{
+  padding: 10px;
+}
+.backBtn{
+  padding: 10px;
+}
+.backBtn button{
+  width: 200px;
+  height: 3rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.item:hover, button:hover{
+  opacity: .7;
+  transition: .5s;
+}
+h2{
+  text-align: center;
+  color: #888;
+  margin-bottom: 20px;
+}
+.container-items{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.item-box{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.item{
+  border: 2px solid;
+  padding: 20px;
+  color: #FFF;
+  border-radius: 10px;
+}
+img{
+  width: 200px;
+}
